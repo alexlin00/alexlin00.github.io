@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intro.css">
+    <script src="js/pdfscript.js"></script>
+    <title>Alex L.</title>
+ </head>
+
+<body>
+        <nav class="nav-bar">
+            <div class="initials">
+                <h2>AL</h2>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li onclick="openPdf()"><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about" class="welcome-section">
+            <div class="frame">
+            <!-- <img class="selfie" src="https://live.staticflickr.com/65535/51590028413_9882fc7cc9_o.png" alt="a selfie"> -->
+            </div>
+            <h1>Hello my name is Alex Lin, a Full Stack Developer</h1>
+            <h4>I am based in New York City, Queens.</h4>
+        </section>
+
+        <div class="container">
+            <section class="projects">
+                <div class="grid-wrapper">
+                <p class="p-header">Here are some of the webpages I have made</p>
+                <a class="project-img1" href="https://codepen.io/alexobot/full/wvWMOaz"><!--Tribute Page--><img src="https://i.ibb.co/mNBhvwc/proj1.png" class="imgg-size" alt="Tribute Page"></a>
+                <a class="project-img2" href="https://codepen.io/alexobot/full/yLJOVLy"><!--Survey Page--><img src="https://i.ibb.co/k9SZ5SK/proj2.png" class="imgg-size" alt="Survey Page" ></a>
+                <a class="project-img3" href="https://codepen.io/alexobot/full/WNxKGab"><!--Technical Documentation Page--><img src="https://i.ibb.co/YRqt1cS/proj4.png" class="imgg-size" alt="Technical Documentation Page"></a>
+                <a class="project-img4" href="https://codepen.io/alexobot/full/JjKJLjq"><!--Product Page--><img src="https://i.ibb.co/tpZDKwQ/proj3.png" class="imgg-size" alt="Product Page"></a>
+                </div>
+            </section>
+
+            <section class="sidebar">
+
+                <div class="form-container">
+
+                <h3>Contact me</h3>
+
+                <form class="contact-form" method="post" action="contact_form.php">
+
+                    <div class="form-styling1">
+                        <label for="Name" class="form-label">Name:</label><br>
+                        <input type="text" name="Name" class="form-input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-styling1">
+                        <label for="Email" class="form-label">Email address:</label><br>
+                        <input type="text" name="Email" class="form-input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-styling2">
+                        <label for="Message" class="form-label">Message:</label><br>
+                        <textarea type="text" name="Message" class="form-input-msg" required>Enter message...</textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Submit</button>
+
+                    </form>
+
+                </div>
+
+                <div class="icon-container">
+                    <a href="https://github.com/alexlin00"><img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/></a>
+                    <a href="https://www.linkedin.com/in/alexlin561"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+                </div>
+
+            </section>
+        </div>
+
+        <footer id="contact" class="copyright">
+
+            <p>&#169; 2021 Alex Lin</p>
+        </footer>
+
+</body>
+
+</html>
+
+
