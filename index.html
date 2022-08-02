@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.dropbox.com/s/407c7tn4gj26wpn/favicon.ico?raw=1" type="image/x-icon">
     <link rel="stylesheet" href="intro.css">
-    <script src="js/pdfscript.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@400;700&family=Cherry+Cream+Soda&family=Forum&family=Goldman:wght@400;700&family=Quantico:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="js/script.js"></script>
     <title>Alex L.</title>
  </head>
 
 <body>
         <nav class="nav-bar">
-            <div class="initials">
+            <div id="initials" class="initials">
                 <h2>AL</h2>
             </div>
             <ul>
@@ -23,9 +25,9 @@
 
         <section id="about" class="welcome-section">
             <div class="frame">
-            <!-- <img class="selfie" src="https://live.staticflickr.com/65535/51590028413_9882fc7cc9_o.png" alt="a selfie"> -->
+            <img class="selfie" src="https://live.staticflickr.com/65535/51590028413_9882fc7cc9_o.png" alt="a selfie">
             </div>
-            <h1>Hello my name is Alex Lin, a Full Stack Developer</h1>
+            <h1>Hello my name is <span class="fname">Alex Lin</span>, a Full Stack Developer</h1>
             <h4>I am based in New York City, Queens.</h4>
         </section>
 
@@ -33,17 +35,16 @@
             <section class="projects">
                 <div class="grid-wrapper">
                 <p class="p-header">Here are some of the webpages I have made</p>
-                <a class="project-img1" href="https://codepen.io/alexobot/full/wvWMOaz"><!--Tribute Page--><img src="https://i.ibb.co/mNBhvwc/proj1.png" class="imgg-size" alt="Tribute Page"></a>
-                <a class="project-img2" href="https://codepen.io/alexobot/full/yLJOVLy"><!--Survey Page--><img src="https://i.ibb.co/k9SZ5SK/proj2.png" class="imgg-size" alt="Survey Page" ></a>
-                <a class="project-img3" href="https://codepen.io/alexobot/full/WNxKGab"><!--Technical Documentation Page--><img src="https://i.ibb.co/YRqt1cS/proj4.png" class="imgg-size" alt="Technical Documentation Page"></a>
-                <a class="project-img4" href="https://codepen.io/alexobot/full/JjKJLjq"><!--Product Page--><img src="https://i.ibb.co/tpZDKwQ/proj3.png" class="imgg-size" alt="Product Page"></a>
+                <a class="project-img1" href="https://codepen.io/alexobot/full/wvWMOaz"><!--Tribute Page--><img class="imgg-size" src="https://i.ibb.co/mNBhvwc/proj1.png" alt="Tribute Page"></a>
+                <a class="project-img2" href="https://codepen.io/alexobot/full/yLJOVLy"><!--Survey Page--><img class="imgg-size" src="https://i.ibb.co/k9SZ5SK/proj2.png" alt="Survey Page" ></a>
+                <a class="project-img3" href="https://codepen.io/alexobot/full/WNxKGab"><!--Technical Documentation Page--><img class="imgg-size"  src="https://i.ibb.co/YRqt1cS/proj4.png" alt="Technical Documentation Page"></a>
+                <a class="project-img4" href="https://codepen.io/alexobot/full/JjKJLjq"><!--Product Page--><img class="imgg-size" src="https://i.ibb.co/tpZDKwQ/proj3.png" alt="Product Page"></a>
                 </div>
             </section>
 
-            <section class="sidebar">
+            <section id="contact" class="sidebar">
 
                 <div class="form-container">
-
                 <h3>Contact me</h3>
 
                 <form class="contact-form" method="post" action="contact_form.php">
@@ -60,26 +61,24 @@
                         <label for="Message" class="form-label">Message:</label><br>
                         <textarea type="text" name="Message" class="form-input-msg" required>Enter message...</textarea>
                     </div>
-
                     <button type="submit" class="submit-button">Submit</button>
 
-                    </form>
+                </form>
 
                 </div>
 
                 <div class="icon-container">
-                    <a href="https://github.com/alexlin00"><img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/></a>
+                    <a href="https://github.com/alexobot"><img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/></a>
                     <a href="https://www.linkedin.com/in/alexlin561"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
                 </div>
 
             </section>
         </div>
 
-        <footer id="contact" class="copyright">
-
-            <p>&#169; 2021 Alex Lin</p>
+        <footer class="copyright">
+            <a href="#initials">&#169; 2021 Alex Lin</a>
         </footer>
-
+        
 </body>
 
 </html>
