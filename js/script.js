@@ -6,5 +6,5 @@ function openPdf() {
 // omyFrame.style.display="block";
 // omyFrame.src = "docs/AL_Resume21.pdf";
 var win = window.open();
-win.document.write('<iframe width="100%" height="100%" src="https://www.dropbox.com/s/nx4o47bpmkl7cwc/AL_Resume2022_6242022.pdf?raw=1" frameborder="0" allowfullscreen></iframe>')
+win.document.write('<iframe width="100%" height="100%" src="https://www.dropbox.com/scl/fi/8lhghi7reic56wu1uopb3/AL_Resume6242022.pdf?raw=1" frameborder="0" allowfullscreen></iframe>')
 }
