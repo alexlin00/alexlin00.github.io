@@ -6,5 +6,12 @@ function openPdf() {
 // omyFrame.style.display="block";
 // omyFrame.src = "docs/AL_Resume21.pdf";
 var win = window.open();
-win.document.write('<iframe width="100%" height="100%" src="https://www.dropbox.com/scl/fi/8lhghi7reic56wu1uopb3/AL_Resume6242022.pdf?raw=1" frameborder="0" allowfullscreen></iframe>')
+
+//win.document.write('<iframe width="100%" height="100%" src="https://www.dropbox.com/scl/fi/8lhghi7reic56wu1uopb3/AL_Resume6242022.pdf?raw=1" frameborder="0" allowfullscreen></iframe>')
+//}
+
+win.document.write('<iframe width="100%" height="100%" src="https://www.dropbox.com/scl/fi/sz1yxsdwr0150k2ti86vp/Resume_AL.pdf?raw=1" frameborder="0" allowfullscreen></iframe>')
+//https://www.dropbox.com/scl/fi/sz1yxsdwr0150k2ti86vp/Resume_AL.pdf?
+
+//rlkey=56dp9d5wgwwht3hje73fzjr04&dl=0
 }
