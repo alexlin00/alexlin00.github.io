@@ -17,9 +17,9 @@ var win = window.open();
 //}
 
 
-win.document.write('<iframe width="100%" height="100%" src="https://dl.dropbox.com/scl/fi/sz1yxsdwr0150k2ti86vp/Resume_AL.pdf?rlkey=56dp9d5wgwwht3hje73fzjr04&dl=0" frameborder="0" allowfullscreen></iframe>')
+win.document.write('<iframe width="100%" height="100%" src="https://dl.dropbox.com/scl/fi/ca3kbg4bj1hcybrcbynwb/Resume_AL.pdf?rlkey=fq0kg32p2v1blus160gdy0chh&dl=0" frameborder="0" allowfullscreen></iframe>')
 //https://www.dropbox.com/scl/fi/sz1yxsdwr0150k2ti86vp/Resume_AL.pdf?
-
+//https://www.dropbox.com/scl/fi/ca3kbg4bj1hcybrcbynwb/Resume_AL.pdf?rlkey=fq0kg32p2v1blus160gdy0chh&dl=0
 //rlkey=56dp9d5wgwwht3hje73fzjr04&dl=0
 }
 
